@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "Bash(npm audit *)",
+      "Bash(npx next *)",
+      "Bash(npm run *)",
+      "Bash(Remove-Item -Recurse -Force \"C:\\\\Users\\\\Stahu\\\\OneDrive\\\\Desktop\\\\Projects and work\\\\DanielaProject\\\\.next\" -ErrorAction SilentlyContinue)"
+    ]
+  }
+}
