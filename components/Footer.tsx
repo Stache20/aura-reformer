@@ -97,7 +97,7 @@ export default function Footer() {
           <p className="text-xs text-white/30">
             © {new Date().getFullYear()} Aura Reformer. Alle Rechte vorbehalten.
           </p>
-          <div className="flex gap-6 text-xs text-white/30">
+          <div className="flex flex-wrap justify-center gap-6 text-xs text-white/30">
             <Link href="/impressum" className="hover:text-white/60 transition-colors">Impressum</Link>
             <Link href="/datenschutz" className="hover:text-white/60 transition-colors">Datenschutz</Link>
             <button
@@ -109,6 +109,14 @@ export default function Footer() {
             >
               Cookie-Einstellungen
             </button>
+            <a
+              href="https://webpretzel.ca"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white/60 transition-colors"
+            >
+              Erstellt von WebPretzel
+            </a>
           </div>
         </div>
       </div>
