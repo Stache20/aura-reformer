@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import AnimateOnScroll from './AnimateOnScroll'
 
 export default function GiftCardSection() {
@@ -19,7 +20,7 @@ export default function GiftCardSection() {
           <AnimateOnScroll delay={50} className="bg-bg rounded-2xl border border-border p-8 lg:p-10">
             <h3 className="text-xl font-medium text-ink mb-4">Gutschein kaufen</h3>
             <p className="text-muted text-sm leading-relaxed mb-7">
-              Gutscheine sind in verschiedenen Werten erhältlich — ab 50 €. Melde dich einfach per E-Mail oder Telefon, wir schicken dir den Gutschein direkt zu.
+              Gutscheine sind in verschiedenen Werten erhältlich — ab 50 €. Gutscheine werden über unser Buchungssystem bestellt.
             </p>
             <ul className="space-y-3 text-sm text-muted mb-8">
               {['50 €', '100 €', '150 €', '200 €'].map((val) => (
@@ -29,20 +30,28 @@ export default function GiftCardSection() {
                 </li>
               ))}
             </ul>
-            <a
-              href="mailto:Info@aurareformer.de?subject=Gutschein%20bestellen"
+            <Link
+              href="/buchen"
               className="inline-flex w-full items-center justify-center bg-accent text-white py-3.5 rounded-xl text-sm hover:bg-accent-dark transition-colors duration-300 font-medium"
             >
-              Gutschein per E-Mail bestellen
-            </a>
+              Gutschein jetzt buchen
+            </Link>
           </AnimateOnScroll>
 
           {/* Redeem card */}
           <AnimateOnScroll delay={120} className="bg-bg rounded-2xl border border-border p-8 lg:p-10">
             <h3 className="text-xl font-medium text-ink mb-2">Gutschein einlösen</h3>
             <p className="text-muted text-sm leading-relaxed mb-7">
-              Hast du bereits einen Aura-Gutschein? Ruf uns an oder schreib uns eine E-Mail mit deinem Code — wir lösen ihn gerne für dich ein.
+              Hast du bereits einen Aura-Gutschein? Buch einfach deine Wunsch-Session über unser Buchungssystem und gib deinen Gutscheincode an.
             </p>
+
+            <Link
+              href="/buchen"
+              className="inline-flex w-full items-center justify-center bg-accent text-white py-3.5 rounded-xl text-sm hover:bg-accent-dark transition-colors duration-300 font-medium mb-6"
+            >
+              Jetzt Session buchen
+            </Link>
+
             <div className="space-y-3">
               <a
                 href="mailto:Info@aurareformer.de?subject=Gutschein%20einl%C3%B6sen"
@@ -64,7 +73,7 @@ export default function GiftCardSection() {
               <p className="text-sm font-medium text-ink mb-4">So einfach geht&apos;s</p>
               <ul className="space-y-3">
                 {[
-                  'Gutschein per E-Mail oder Telefon bestellen',
+                  'Gutschein über das Buchungssystem bestellen',
                   'Gutschein als PDF erhalten',
                   'Wunsch-Session buchen & genießen',
                 ].map((step, i) => (

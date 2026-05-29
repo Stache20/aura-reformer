@@ -14,8 +14,8 @@ const config: Config = {
         border: '#E5E4DF',
         muted: '#7A7A72',
         ink: '#1C1C1A',
-        accent: '#BFA07A',
-        'accent-dark': '#A08058',
+        accent: '#C9A84C',
+        'accent-dark': '#A8863A',
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],

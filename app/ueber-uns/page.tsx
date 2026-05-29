@@ -39,7 +39,7 @@ const team = [
     name: 'Petra Schrafstetter',
     role: 'Pilates Instructor',
     photo: '/images/PetraPhoto.jpeg',
-    bio: 'Spezialisiert auf Rehabilitation und Beweglichkeitstraining. Mit einem Hintergrund in Physiotherapie verbindet sie medizinisches Fachwissen mit der Eleganz des Pilates.',
+    bio: 'Sport begleitet mich seit meiner Kindheit und ist ein wichtiger Bestandteil meines Lebens. Erst nach der Geburt meines Sohnes entdeckte ich Pilates für mich – als ideale Kombination aus Kräftigung, Dehnung und bewusster Entspannung. Die positiven Erfahrungen motivierten mich dazu, selbst die Ausbildung zu beginnen und mein Wissen weiterzugeben.\n\nIch bin zertifizierte DOSB Übungsleiterin C im Bereich Fitness und Gesundheit sowie DOSB Übungsleiterin B für Haltungs- und Bewegungssysteme. Zusätzlich habe ich eine Pilates-Ausbildung und bilde mich hier regelmäßig fort.\n\nIch freue mich darauf, dir durch Bewegung mehr Kraft, Balance und Beweglichkeit zu vermitteln.',
   },
 ]
 
@@ -140,7 +140,11 @@ export default function UeberUns() {
                   <div>
                     <p className="text-accent text-[10px] tracking-[0.2em] uppercase mb-1">{member.role}</p>
                     <h3 className="font-display font-medium text-2xl text-ink mb-3">{member.name}</h3>
-                    <p className="text-muted text-sm leading-relaxed">{member.bio}</p>
+                    <div className="space-y-3">
+                    {member.bio.split('\n\n').map((para, j) => (
+                      <p key={j} className="text-muted text-sm leading-relaxed">{para}</p>
+                    ))}
+                  </div>
                   </div>
                 </div>
               </AnimateOnScroll>
