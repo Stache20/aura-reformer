@@ -58,7 +58,9 @@ export default function Kontakt() {
                 <div>
                   <p className="text-[10px] font-semibold tracking-[0.2em] uppercase text-muted mb-3">Folge uns</p>
                   <a
-                    href="#"
+                    href="https://www.instagram.com/aura_reformerstudio/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-flex items-center gap-2.5 text-sm text-ink hover:text-accent transition-colors"
                     aria-label="Aura Reformer auf Instagram"
                   >

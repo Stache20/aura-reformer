@@ -75,7 +75,9 @@ export default function Footer() {
               </div>
               <div className="pt-2">
                 <a
-                  href="#"
+                  href="https://www.instagram.com/aura_reformerstudio/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="inline-flex items-center gap-1.5 hover:text-white transition-colors"
                   aria-label="Instagram"
                 >
