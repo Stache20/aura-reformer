@@ -28,10 +28,15 @@ export default function Kontakt() {
               <div className="space-y-8 mb-10">
                 <div>
                   <p className="text-[10px] font-semibold tracking-[0.2em] uppercase text-muted mb-2">Adresse</p>
-                  <address className="not-italic text-sm text-ink leading-relaxed">
+                  <a
+                    href="https://maps.app.goo.gl/kCMaAyq8vTjrt8xr8"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="not-italic text-sm text-ink hover:text-accent transition-colors leading-relaxed"
+                  >
                     <p>Gewerbepark BWB 3</p>
                     <p>83052 Bruckmühl</p>
-                  </address>
+                  </a>
                 </div>
 
                 <div>
@@ -68,21 +73,25 @@ export default function Kontakt() {
               </div>
 
               {/* Map */}
-              <div className="rounded-2xl border border-border bg-surface overflow-hidden">
-                <div className="h-48 flex flex-col items-center justify-center gap-2 text-muted">
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1">
-                    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" />
-                    <circle cx="12" cy="9" r="2.5" />
-                  </svg>
-                  <a
-                    href="https://maps.google.com/?q=Gewerbepark+BW3+83052+Bruckmuehl"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-accent hover:underline"
-                  >
-                    In Google Maps öffnen →
-                  </a>
-                </div>
+              <div className="rounded-2xl border border-border overflow-hidden">
+                <iframe
+                  src="https://maps.google.com/maps?q=Gewerbepark+BWB+3,+83052+Bruckm%C3%BChl&output=embed"
+                  width="100%"
+                  height="220"
+                  style={{ border: 0, display: 'block' }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title="Aura Reformer Standort"
+                />
+                <a
+                  href="https://maps.app.goo.gl/kCMaAyq8vTjrt8xr8"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center justify-center gap-1.5 py-3 bg-surface text-xs text-accent hover:text-accent-dark transition-colors"
+                >
+                  In Google Maps öffnen →
+                </a>
               </div>
             </AnimateOnScroll>
 
