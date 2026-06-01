@@ -11,14 +11,14 @@ export const metadata: Metadata = {
 }
 
 const pilatesRegular = [
-  { label: 'Einzeleintritt', price: '30 €', note: 'pro Einheit' },
-  { label: '5er Karte', price: '145 €', note: '≈ 29 € pro Einheit' },
+  { label: 'Einzeleintritt', price: '29 €', note: 'pro Einheit' },
+  { label: '5er Karte', price: '140 €', note: '≈ 28 € pro Einheit' },
   { label: '10er Karte', price: '270 €', note: '≈ 27 € pro Einheit' },
 ]
 
 const pilatesStart = [
-  { label: 'Einzeleintritt', regular: '30 €', promo: '27 €' },
-  { label: '5er Karte', regular: '145 €', promo: '125 €', note: '≈ 25 € pro Einheit' },
+  { label: 'Einzeleintritt', regular: '29 €', promo: '27 €' },
+  { label: '5er Karte', regular: '140 €', promo: '125 €', note: '≈ 25 € pro Einheit' },
   { label: '10er Karte', regular: '270 €', promo: '240 €', note: '≈ 24 € pro Einheit' },
 ]
 
@@ -31,7 +31,7 @@ const emsTraining = [
   },
   {
     label: '1:3 Training',
-    price: '25 €',
+    price: '22 €',
     note: '+ 5 € Leihanzug',
     description: 'Kleingruppentraining mit maximaler Wirkung in kürzester Zeit.',
   },
@@ -80,7 +80,7 @@ export default function Leistungen() {
                   Dein erster Monat — günstiger starten.
                 </h2>
                 <p className="text-white/75 mt-2 text-sm">
-                  Pilates Reformer ab nur <strong className="text-white">27 €</strong> statt 30 € · 5er Karte ab <strong className="text-white">125 €</strong> statt 145 € · 10er Karte ab <strong className="text-white">240 €</strong> statt 270 €
+                  Pilates Reformer ab nur <strong className="text-white">27 €</strong> statt 29 € · 5er Karte ab <strong className="text-white">125 €</strong> statt 140 € · 10er Karte ab <strong className="text-white">240 €</strong> statt 270 €
                 </p>
               </div>
               <Link
@@ -194,15 +194,15 @@ export default function Leistungen() {
           <AnimateOnScroll className="mb-8">
             <div className="rounded-2xl border border-accent/30 bg-bg p-8 flex flex-col md:flex-row items-start md:items-center gap-6">
               <div className="flex-1">
-                <p className="text-accent text-[11px] tracking-[0.25em] uppercase mb-2">Schnuppern & Kennenlernen</p>
-                <h3 className="font-display font-medium text-2xl text-ink mb-2">Schnuppertermin 1:1</h3>
+                <p className="text-accent text-[11px] tracking-[0.25em] uppercase mb-2">Einstieg & Kennenlernen</p>
+                <h3 className="font-display font-medium text-2xl text-ink mb-2">Body Check & Probetraining</h3>
                 <p className="text-muted text-sm leading-relaxed">
                   Dein erstes Mal am EMS-Gerät — in einer persönlichen Session erklären wir dir alles und du erlebst, wie EMS Training sich anfühlt. Unverbindlich und ohne Druck.
                 </p>
               </div>
               <div className="shrink-0 bg-accent/5 border border-accent/20 rounded-2xl px-7 py-5 text-center">
-                <p className="text-[10px] uppercase tracking-widest text-accent mb-1">Ab</p>
-                <p className="font-display font-light text-4xl text-ink">20–30 €</p>
+                <p className="text-[10px] uppercase tracking-widest text-accent mb-1">Einmalig</p>
+                <p className="font-display font-light text-4xl text-ink">20 €</p>
                 <p className="text-[10px] text-muted mt-1">Personal Session · 30 Min.</p>
               </div>
             </div>
@@ -234,14 +234,14 @@ export default function Leistungen() {
               <h3 className="font-display font-light text-3xl mb-5">EMS Body Transformation</h3>
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="bg-white/5 rounded-xl p-5">
-                  <p className="text-accent text-xs tracking-widest uppercase mb-2">Session 1</p>
+                  <p className="text-accent text-xs tracking-widest uppercase mb-2">1:2 Training · 30 €</p>
                   <p className="font-medium text-white mb-1">Krafttraining</p>
-                  <p className="text-white/60 text-sm">20 Minuten intensives Muskelaufbau-Training</p>
+                  <p className="text-white/60 text-sm">20 Minuten intensives Muskelaufbau-Training · zu zweit mit Coach</p>
                 </div>
                 <div className="bg-white/5 rounded-xl p-5">
-                  <p className="text-accent text-xs tracking-widest uppercase mb-2">Session 2</p>
+                  <p className="text-accent text-xs tracking-widest uppercase mb-2">1:3 Training · 22 €</p>
                   <p className="font-medium text-white mb-1">Ausdauertraining</p>
-                  <p className="text-white/60 text-sm">30 Minuten gezielte Ausdauer & Regeneration</p>
+                  <p className="text-white/60 text-sm">30 Minuten gezielte Ausdauer & Regeneration · Kleingruppe</p>
                 </div>
               </div>
             </div>

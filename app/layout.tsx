@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Cormorant_Garamond } from 'next/font/google'
+import { Inter, DM_Serif_Display } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
@@ -11,9 +11,9 @@ const inter = Inter({
   display: 'swap',
 })
 
-const cormorant = Cormorant_Garamond({
+const dmSerif = DM_Serif_Display({
   subsets: ['latin'],
-  weight: ['300', '400', '500', '600'],
+  weight: ['400'],
   style: ['normal', 'italic'],
   variable: '--font-cormorant',
   display: 'swap',
@@ -40,7 +40,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="de" className={`${inter.variable} ${cormorant.variable}`}>
+    <html lang="de" className={`${inter.variable} ${dmSerif.variable}`}>
       <body className="bg-bg text-ink font-sans">
         <Navbar />
         <main>{children}</main>

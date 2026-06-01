@@ -3,15 +3,15 @@ import Link from 'next/link'
 export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background — replace bg-[#1a1918] with an <Image> tag when client provides photo */}
-      <div className="absolute inset-0 bg-[#1a1918]">
+      {/* Background — replace with an <Image> tag when client provides photo */}
+      <div className="absolute inset-0 bg-[#C4A07A]">
         <div className="absolute inset-0 flex items-end justify-start p-8 pointer-events-none">
-          <span className="text-white/10 text-[10px] tracking-widest uppercase">
+          <span className="text-white/20 text-[10px] tracking-widest uppercase">
             Hauptfoto Platzhalter — Bitte Foto einsetzen
           </span>
         </div>
-        {/* Subtle gradient overlay */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/60" />
+        {/* Warm gradient overlay */}
+        <div className="absolute inset-0 bg-gradient-to-b from-[#3D2410]/50 via-[#3D2410]/30 to-[#3D2410]/65" />
       </div>
 
       {/* Content */}
