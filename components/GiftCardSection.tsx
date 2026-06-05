@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import AnimateOnScroll from './AnimateOnScroll'
 
 export default function GiftCardSection() {
@@ -30,12 +29,14 @@ export default function GiftCardSection() {
                 </li>
               ))}
             </ul>
-            <Link
-              href="/buchen"
+            <a
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/vouchers"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center bg-accent text-white py-3.5 rounded-xl text-sm hover:bg-accent-dark transition-colors duration-300 font-medium"
             >
               Gutschein jetzt buchen
-            </Link>
+            </a>
           </AnimateOnScroll>
 
           {/* Redeem card */}
@@ -45,12 +46,14 @@ export default function GiftCardSection() {
               Hast du bereits einen Aura-Gutschein? Buch einfach deine Wunsch-Session über unser Buchungssystem und gib deinen Gutscheincode an.
             </p>
 
-            <Link
-              href="/buchen"
+            <a
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center bg-accent text-white py-3.5 rounded-xl text-sm hover:bg-accent-dark transition-colors duration-300 font-medium mb-6"
             >
               Jetzt Session buchen
-            </Link>
+            </a>
 
             <div className="space-y-3">
               <a

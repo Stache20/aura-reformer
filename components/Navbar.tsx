@@ -72,12 +72,14 @@ export default function Navbar() {
           </nav>
 
           <div className="flex items-center gap-4">
-            <Link
-              href="/buchen"
+            <a
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden md:inline-flex items-center bg-accent text-white text-sm px-6 py-2.5 rounded-full hover:bg-accent-dark transition-colors duration-300"
             >
               Jetzt buchen
-            </Link>
+            </a>
 
             {/* Hamburger */}
             <button
@@ -127,13 +129,15 @@ export default function Navbar() {
               {link.label}
             </Link>
           ))}
-          <Link
-            href="/buchen"
+          <a
+            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+            target="_blank"
+            rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}
             className="mt-2 bg-accent text-white text-sm px-6 py-3 rounded-full text-center hover:bg-accent-dark transition-colors"
           >
             Jetzt buchen
-          </Link>
+          </a>
         </nav>
       </div>
     </header>

@@ -31,12 +31,14 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link
-            href="/buchen"
+          <a
+            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+            target="_blank"
+            rel="noopener noreferrer"
             className="bg-accent text-white px-9 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
           >
             Jetzt buchen
-          </Link>
+          </a>
           <Link
             href="/leistungen"
             className="border border-white/35 text-white px-9 py-4 rounded-full text-sm tracking-wide hover:border-white hover:bg-white/10 transition-all duration-300"

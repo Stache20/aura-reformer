@@ -16,17 +16,19 @@ const services = [
       'Federbassiertes Widerstandstraining für Kraft, Haltung und Beweglichkeit — einzeln oder mit Karte. Wellpass möglich.',
     from: 'Ab 27 €',
     fromNote: 'im Startmonat',
-    regular: '30 € Einzeleintritt',
+    regular: '29 € Einzeleintritt',
     tag: null,
+    href: 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course',
   },
   {
     name: 'EMS Training',
     description:
-      'Elektromuskelstimulation für maximale Wirkung in minimaler Zeit. 1:2 oder 1:3 Training. Schnuppertermin ab 20 €.',
-    from: 'Ab 25 €',
+      'Elektromuskelstimulation für maximale Wirkung in minimaler Zeit. 1:2 oder 1:3 Training. Body Check & Probetraining ab 20 €.',
+    from: 'Ab 22 €',
     fromNote: 'pro Einheit (1:3)',
     regular: '30 € im 1:2 Training',
     tag: null,
+    href: 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments',
   },
   {
     name: 'Wellpass',
@@ -36,6 +38,7 @@ const services = [
     fromNote: 'individuell',
     regular: 'Pilates & EMS buchbar',
     tag: 'Partner',
+    href: 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments',
   },
 ]
 
@@ -108,9 +111,19 @@ export default function Home() {
                     )}
                   </div>
                   <p className="text-muted text-sm leading-relaxed flex-1 mb-6">{s.description}</p>
-                  <div className="pt-6 border-t border-border">
-                    <p className="font-semibold text-ink text-lg">{s.from}</p>
-                    <p className="text-muted text-xs mt-0.5">{s.fromNote} · {s.regular}</p>
+                  <div className="pt-6 border-t border-border flex items-end justify-between gap-4">
+                    <div>
+                      <p className="font-semibold text-ink text-lg">{s.from}</p>
+                      <p className="text-muted text-xs mt-0.5">{s.fromNote} · {s.regular}</p>
+                    </div>
+                    <a
+                      href={s.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="shrink-0 text-xs text-accent border border-accent/40 px-4 py-2 rounded-full hover:bg-accent hover:text-white transition-colors duration-300"
+                    >
+                      Buchen →
+                    </a>
                   </div>
                 </article>
               </AnimateOnScroll>
@@ -175,12 +188,14 @@ export default function Home() {
             <p className="text-white/60 text-lg leading-relaxed max-w-lg mx-auto mb-10">
               Buch deinen Termin jetzt online — unkompliziert, schnell und flexibel.
             </p>
-            <Link
-              href="/buchen"
+            <a
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center bg-accent text-white px-10 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
             >
               Jetzt buchen
-            </Link>
+            </a>
           </AnimateOnScroll>
         </div>
       </section>

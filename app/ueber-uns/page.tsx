@@ -163,12 +163,14 @@ export default function UeberUns() {
             <p className="text-white/60 text-lg leading-relaxed max-w-md mx-auto mb-10">
               Buch deinen Probetermin und erlebe Aura Reformer zum ersten Mal — unverbindlich und entspannt.
             </p>
-            <Link
-              href="/buchen"
+            <a
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center bg-accent text-white px-10 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
             >
               Probetermin buchen
-            </Link>
+            </a>
           </AnimateOnScroll>
         </div>
       </section>
