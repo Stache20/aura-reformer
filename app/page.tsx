@@ -163,7 +163,7 @@ export default function Home() {
                   src="/images/BeidePhoto.jpeg"
                   alt="Daniela und Petra – Aura Reformer Team"
                   fill
-                  className="object-cover"
+                  className="object-cover photo-filter"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                 />
               </div>

@@ -62,7 +62,7 @@ export default function UeberUns() {
                   src="/images/BeidePhoto.jpeg"
                   alt="Daniela und Petra – Aura Reformer Team"
                   fill
-                  className="object-cover"
+                  className="object-cover photo-filter"
                   sizes="(max-width: 1024px) 100vw, 50vw"
                   priority
                 />
@@ -133,7 +133,7 @@ export default function UeberUns() {
                       src={member.photo}
                       alt={`${member.name} – ${member.role}`}
                       fill
-                      className="object-cover object-top"
+                      className="object-cover object-top photo-filter"
                       sizes="(max-width: 768px) 100vw, 50vw"
                     />
                   </div>

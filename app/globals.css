@@ -52,3 +52,13 @@ body {
 .link-underline {
   @apply inline-flex items-center gap-2 text-sm border-b pb-px transition-colors duration-300;
 }
+
+/* Warm B&W photo filter with colour reveal on hover */
+.photo-filter {
+  filter: grayscale(85%) sepia(20%) contrast(1.05);
+  transition: filter 0.5s ease;
+}
+
+.photo-filter:hover {
+  filter: grayscale(0%) sepia(0%) contrast(1);
+}
