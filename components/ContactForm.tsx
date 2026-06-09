@@ -157,8 +157,8 @@ export default function ContactForm() {
       {status === 'error' && (
         <p className="text-sm text-red-500">
           Etwas ist schiefgelaufen. Bitte versuche es erneut oder schreibe uns direkt an{' '}
-          <a href="mailto:Info@aurareformer.de?subject=Aura%20Reformer" className="underline">
-            Info@aurareformer.de
+          <a href="mailto:info@aura-reformer.de?subject=Aura%20Reformer" className="underline">
+            info@aura-reformer.de
           </a>
         </p>
       )}

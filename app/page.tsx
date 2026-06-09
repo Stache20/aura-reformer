@@ -189,7 +189,7 @@ export default function Home() {
               Buch deinen Termin jetzt online — unkompliziert, schnell und flexibel.
             </p>
             <a
-              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-accent text-white px-10 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"

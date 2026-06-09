@@ -32,7 +32,7 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-accent text-white px-9 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"

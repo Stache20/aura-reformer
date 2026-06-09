@@ -7,3 +7,5 @@ export const BOOKING = {
   offers:       `${BASE}/offers`,
   vouchers:     `${BASE}/vouchers`,
 } as const
+
+export const DEFAULT_BOOKING_URL = `${BASE}/course`

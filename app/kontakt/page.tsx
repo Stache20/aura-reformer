@@ -110,7 +110,7 @@ export default function Kontakt() {
                 </p>
 
                 <a
-                  href="mailto:Info@aurareformer.de?subject=Anfrage%20Aura%20Reformer"
+                  href="mailto:info@aura-reformer.de?subject=Anfrage%20Aura%20Reformer"
                   className="inline-flex w-full items-center justify-center gap-2 bg-accent text-white px-8 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
                 >
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
@@ -121,7 +121,7 @@ export default function Kontakt() {
                 </a>
 
                 <p className="text-center text-muted text-xs mt-4">
-                  Info@aurareformer.de
+                  info@aura-reformer.de
                 </p>
               </div>
             </AnimateOnScroll>

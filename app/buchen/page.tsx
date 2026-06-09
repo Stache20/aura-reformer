@@ -98,8 +98,8 @@ export default function Buchen() {
                   <p>83052 Bruckmühl</p>
                   <div className="pt-2 space-y-1.5">
                     <p>
-                      <a href="mailto:Info@aurareformer.de" className="hover:text-accent transition-colors">
-                        Info@aurareformer.de
+                      <a href="mailto:info@aura-reformer.de" className="hover:text-accent transition-colors">
+                        info@aura-reformer.de
                       </a>
                     </p>
                     <p>

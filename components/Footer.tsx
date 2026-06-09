@@ -63,8 +63,8 @@ export default function Footer() {
               <p>83052 Bruckmühl</p>
               <div className="pt-2 space-y-2">
                 <p>
-                  <a href="mailto:Info@aurareformer.de?subject=Aura%20Reformer" className="hover:text-white transition-colors">
-                    Info@aurareformer.de
+                  <a href="mailto:info@aura-reformer.de?subject=Aura%20Reformer" className="hover:text-white transition-colors">
+                    info@aura-reformer.de
                   </a>
                 </p>
                 <p>

@@ -28,8 +28,8 @@ export default function Datenschutz() {
               <p>Gewerbepark BWB 3, 83052 Bruckmühl</p>
               <p>
                 E-Mail:{' '}
-                <a href="mailto:Info@aurareformer.de" className="text-accent hover:underline">
-                  Info@aurareformer.de
+                <a href="mailto:info@aura-reformer.de" className="text-accent hover:underline">
+                  info@aura-reformer.de
                 </a>
               </p>
               <p>Telefon: 0172 136 6666</p>
@@ -162,8 +162,8 @@ export default function Datenschutz() {
               </ul>
               <p className="mt-5">
                 Zur Ausübung deiner Rechte wende dich bitte an:{' '}
-                <a href="mailto:Info@aurareformer.de" className="text-accent hover:underline">
-                  Info@aurareformer.de
+                <a href="mailto:info@aura-reformer.de" className="text-accent hover:underline">
+                  info@aura-reformer.de
                 </a>
               </p>
             </div>

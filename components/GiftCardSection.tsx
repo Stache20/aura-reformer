@@ -57,11 +57,11 @@ export default function GiftCardSection() {
 
             <div className="space-y-3">
               <a
-                href="mailto:Info@aurareformer.de?subject=Gutschein%20einl%C3%B6sen"
+                href="mailto:info@aura-reformer.de?subject=Gutschein%20einl%C3%B6sen"
                 className="flex items-center gap-3 text-sm text-ink hover:text-accent transition-colors"
               >
                 <span className="text-accent">→</span>
-                Info@aurareformer.de
+                info@aura-reformer.de
               </a>
               <a
                 href="tel:+4917213666666"

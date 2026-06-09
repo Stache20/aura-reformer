@@ -73,7 +73,7 @@ export default function Navbar() {
 
           <div className="flex items-center gap-4">
             <a
-              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden md:inline-flex items-center bg-accent text-white text-sm px-6 py-2.5 rounded-full hover:bg-accent-dark transition-colors duration-300"
@@ -130,7 +130,7 @@ export default function Navbar() {
             </Link>
           ))}
           <a
-            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+            href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMenuOpen(false)}

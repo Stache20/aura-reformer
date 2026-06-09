@@ -17,8 +17,8 @@ export async function POST(req: NextRequest) {
      *   import { Resend } from 'resend'
      *   const resend = new Resend(process.env.RESEND_API_KEY)
      *   await resend.emails.send({
-     *     from: 'kontakt@aurareformer.de',
-     *     to:   'Info@aurareformer.de',
+     *     from: 'kontakt@aura-reformer.de',
+     *     to:   'info@aura-reformer.de',
      *     subject: `Kontaktanfrage: ${subject || 'Neue Nachricht'}`,
      *     text: `Von: ${name} <${email}>\nTelefon: ${phone || '–'}\n\n${message}`,
      *   })

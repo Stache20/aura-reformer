@@ -40,8 +40,8 @@ export default function Impressum() {
               </p>
               <p>
                 E-Mail:{' '}
-                <a href="mailto:Info@aurareformer.de" className="text-ink hover:text-accent transition-colors">
-                  Info@aurareformer.de
+                <a href="mailto:info@aura-reformer.de" className="text-ink hover:text-accent transition-colors">
+                  info@aura-reformer.de
                 </a>
               </p>
             </div>

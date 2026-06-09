@@ -12,6 +12,7 @@ export const metadata: Metadata = {
 
 const APPT = 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments'
 const OFFERS = 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/offers'
+const COURSE = 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course'
 
 const pilatesRegular = [
   { label: 'Einzeleintritt', price: '29 €', note: 'pro Einheit', href: APPT },
@@ -59,7 +60,7 @@ const faqs = [
   },
   {
     q: 'Wie löse ich meine Karte ein?',
-    a: 'Karten werden direkt im Studio oder beim Buchen deines Termins erfasst. Bei Fragen meld dich gerne unter Info@aurareformer.de.',
+    a: 'Karten werden direkt im Studio oder beim Buchen deines Termins erfasst. Bei Fragen meld dich gerne unter info@aura-reformer.de.',
   },
 ]
 
@@ -285,7 +286,7 @@ export default function Leistungen() {
                 </div>
               </div>
               <a
-                href="mailto:Info@aurareformer.de?subject=EMS%20Body%20Transformation%20Anfrage"
+                href="mailto:info@aura-reformer.de?subject=EMS%20Body%20Transformation%20Anfrage"
                 className="inline-flex items-center gap-2 bg-accent text-white px-7 py-3 rounded-full text-sm hover:bg-accent-dark transition-colors duration-300"
               >
                 Preis auf Anfrage — jetzt anfragen
@@ -348,7 +349,7 @@ export default function Leistungen() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href={APPT}
+                href={COURSE}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center bg-accent text-white px-10 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
