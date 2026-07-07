@@ -4,7 +4,6 @@ import Image from 'next/image'
 import Hero from '@/components/Hero'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
 import GiftCardSection from '@/components/GiftCardSection'
-import OpeningEventSection from '@/components/OpeningEventSection'
 
 export const metadata: Metadata = {
   title: 'Aura Reformer – Premium Reformer Pilates in Bruckmühl',
@@ -47,9 +46,6 @@ export default function Home() {
   return (
     <>
       <Hero />
-
-      {/* ── Opening Event (TEMP – remove after 06. Juli 2026) ── */}
-      <OpeningEventSection />
 
       {/* ── Brand intro ─────────────────────────────── */}
       <section className="section-py">

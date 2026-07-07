@@ -4,7 +4,6 @@ import './globals.css'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import CookieBanner from '@/components/CookieBanner'
-import EventPopup from '@/components/EventPopup'
 
 const inter = Inter({
   subsets: ['latin'],
@@ -47,7 +46,6 @@ export default function RootLayout({
         <main>{children}</main>
         <Footer />
         <CookieBanner />
-        <EventPopup />
       </body>
     </html>
   )
