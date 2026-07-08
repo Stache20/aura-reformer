@@ -3,6 +3,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 import PageHero from '@/components/PageHero'
 import AnimateOnScroll from '@/components/AnimateOnScroll'
+import StudioGallery from '@/components/StudioGallery'
 
 export const metadata: Metadata = {
   title: 'Über uns',
@@ -89,6 +90,9 @@ export default function UeberUns() {
           </div>
         </div>
       </section>
+
+      {/* ── Studio ──────────────────────────────────── */}
+      <StudioGallery />
 
       {/* ── Values ──────────────────────────────────── */}
       <section className="section-py bg-surface">
