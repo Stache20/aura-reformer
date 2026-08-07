@@ -116,7 +116,7 @@ export default function Leistungen() {
               <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
               <h3 className="font-medium text-ink mb-1">Pilates Reformer über Wellpass</h3>
               <p className="text-muted text-sm leading-relaxed">
-                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter „Kurs buchen". Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
+                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter &bdquo;Kurs buchen&ldquo;. Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
               </p>
             </div>
           </AnimateOnScroll>
@@ -226,7 +226,7 @@ export default function Leistungen() {
               <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
               <h3 className="font-medium text-ink mb-1">EMS Training über Wellpass</h3>
               <p className="text-muted text-sm leading-relaxed">
-                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter „Kurs buchen". Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
+                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter &bdquo;Kurs buchen&ldquo;. Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
               </p>
             </div>
           </AnimateOnScroll>
