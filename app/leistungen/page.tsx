@@ -20,12 +20,6 @@ const pilatesRegular = [
   { label: '10er Karte', price: '270 €', note: '≈ 27 € pro Einheit', href: OFFERS },
 ]
 
-const pilatesStart = [
-  { label: 'Einzeleintritt', regular: '29 €', promo: '27 €' },
-  { label: '5er Karte', regular: '140 €', promo: '125 €', note: '≈ 25 € pro Einheit' },
-  { label: '10er Karte', regular: '270 €', promo: '240 €', note: '≈ 24 € pro Einheit' },
-]
-
 const emsTraining = [
   {
     label: '1:2 Training',
@@ -73,33 +67,6 @@ export default function Leistungen() {
         subtitle="Pilates Reformer, EMS Training und Wellpass – flexibel, effektiv und auf dich abgestimmt."
       />
 
-      {/* ── Neukunden-Startangebot Banner ───────────── */}
-      <section className="bg-accent text-white py-10">
-        <div className="container-wide">
-          <AnimateOnScroll>
-            <div className="flex flex-col md:flex-row items-center justify-between gap-6">
-              <div>
-                <p className="text-white/80 text-[11px] tracking-[0.25em] uppercase mb-2">Startangebot für Neukunden</p>
-                <h2 className="font-display font-light text-3xl lg:text-4xl leading-tight">
-                  Dein erster Monat — günstiger starten.
-                </h2>
-                <p className="text-white/75 mt-2 text-sm">
-                  Pilates Reformer ab nur <strong className="text-white">27 €</strong> statt 29 € · 5er Karte ab <strong className="text-white">125 €</strong> statt 140 € · 10er Karte ab <strong className="text-white">240 €</strong> statt 270 €
-                </p>
-              </div>
-              <a
-                href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/offers"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="shrink-0 bg-white text-accent px-8 py-3.5 rounded-full text-sm font-medium hover:bg-white/90 transition-colors"
-              >
-                Jetzt einsteigen
-              </a>
-            </div>
-          </AnimateOnScroll>
-        </div>
-      </section>
-
       {/* ══════════════════════════════════════════════ */}
       {/* PILATES REFORMER                              */}
       {/* ══════════════════════════════════════════════ */}
@@ -143,55 +110,14 @@ export default function Leistungen() {
             ))}
           </div>
 
-          {/* Startangebot detail */}
-          <AnimateOnScroll>
-            <div className="rounded-2xl border border-accent/30 bg-accent/5 p-8 lg:p-10 mb-10">
-              <div className="flex items-start gap-3 mb-7">
-                <span className="text-accent text-lg">✦</span>
-                <div>
-                  <p className="text-accent text-[11px] tracking-[0.25em] uppercase mb-1">Startangebot – 1. Monat</p>
-                  <h3 className="font-display font-medium text-2xl text-ink">Neukunden-Preise</h3>
-                  <p className="text-muted text-sm mt-1">Für alle, die neu bei Aura Reformer starten.</p>
-                </div>
-              </div>
-              <div className="grid md:grid-cols-3 gap-5">
-                {pilatesStart.map((item, i) => (
-                  <div key={item.label} className="bg-bg rounded-xl border border-border p-6 flex flex-col gap-3">
-                    <p className="text-sm font-medium text-ink mb-1">{item.label}</p>
-                    <div className="flex items-baseline gap-2.5 mb-1">
-                      <span className="font-display font-light text-3xl text-accent">{item.promo}</span>
-                      <span className="text-muted text-sm line-through">{item.regular}</span>
-                    </div>
-                    {item.note && <p className="text-muted text-xs">{item.note}</p>}
-                    <a
-                      href={i === 0 ? APPT : OFFERS}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mt-1 text-xs text-accent border border-accent/40 px-4 py-2 rounded-full text-center hover:bg-accent hover:text-white transition-colors duration-300"
-                    >
-                      Buchen →
-                    </a>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </AnimateOnScroll>
-
           {/* Wellpass – Pilates */}
           <AnimateOnScroll>
-            <div className="rounded-2xl border border-border bg-surface p-7 flex flex-col md:flex-row items-start md:items-center gap-6">
-              <div className="flex-1">
-                <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
-                <h3 className="font-medium text-ink mb-1">Pilates Reformer über Wellpass</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  Teilnahme über Wellpass möglich. Die genaue Zuzahlung pro Einheit wird individuell festgelegt. Sprich uns gerne an oder schreib uns eine E-Mail.
-                </p>
-              </div>
-              <div className="shrink-0 bg-bg rounded-xl border border-border px-5 py-3 text-center">
-                <p className="text-[10px] uppercase tracking-widest text-muted mb-0.5">Zuzahlung</p>
-                <p className="font-display font-light text-3xl text-ink">XX €</p>
-                <p className="text-[10px] text-muted mt-0.5">je nach Kursmodell</p>
-              </div>
+            <div className="rounded-2xl border border-border bg-surface p-7">
+              <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
+              <h3 className="font-medium text-ink mb-1">Pilates Reformer über Wellpass</h3>
+              <p className="text-muted text-sm leading-relaxed">
+                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter „Kurs buchen". Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>
@@ -296,19 +222,12 @@ export default function Leistungen() {
 
           {/* Wellpass – EMS */}
           <AnimateOnScroll>
-            <div className="rounded-2xl border border-border bg-bg p-7 flex flex-col md:flex-row items-start md:items-center gap-6">
-              <div className="flex-1">
-                <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
-                <h3 className="font-medium text-ink mb-1">EMS Training über Wellpass</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  Auch EMS Training ist über Wellpass buchbar. Optional inklusive Leihanzug. Die Zuzahlung wird individuell festgelegt — ruf uns einfach an oder schreib uns.
-                </p>
-              </div>
-              <div className="shrink-0 bg-surface rounded-xl border border-border px-5 py-3 text-center">
-                <p className="text-[10px] uppercase tracking-widest text-muted mb-0.5">Zuzahlung</p>
-                <p className="font-display font-light text-3xl text-ink">XX €</p>
-                <p className="text-[10px] text-muted mt-0.5">Leihanzug optional</p>
-              </div>
+            <div className="rounded-2xl border border-border bg-bg p-7">
+              <p className="text-[11px] tracking-[0.2em] uppercase font-semibold text-muted mb-2">Wellpass</p>
+              <h3 className="font-medium text-ink mb-1">EMS Training über Wellpass</h3>
+              <p className="text-muted text-sm leading-relaxed">
+                Die Teilnahme mit EGYM Wellpass ist möglich. Alle Informationen zur Anmeldung und Buchung findest du unter „Kurs buchen". Bitte buche deinen Platz vorab und checke dich zusätzlich vor Ort über die Wellpass-App ein.
+              </p>
             </div>
           </AnimateOnScroll>
         </div>

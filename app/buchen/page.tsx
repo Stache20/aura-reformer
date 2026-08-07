@@ -85,7 +85,7 @@ export default function Buchen() {
                   </li>
                   <li className="flex gap-2.5">
                     <span className="text-accent shrink-0">→</span>
-                    Absagen bitte mindestens 24 Stunden im Voraus per E-Mail oder Telefon.
+                    Absagen bitte mindestens 24 Stunden im Voraus über die Fitomat App oder per E-Mail.
                   </li>
                 </ul>
               </div>

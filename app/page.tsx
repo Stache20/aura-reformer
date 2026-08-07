@@ -14,9 +14,9 @@ const services = [
     name: 'Pilates Reformer',
     description:
       'Federbassiertes Widerstandstraining für Kraft, Haltung und Beweglichkeit — einzeln oder mit Karte. Wellpass möglich.',
-    from: 'Ab 27 €',
-    fromNote: 'im Startmonat',
-    regular: '29 € Einzeleintritt',
+    from: '29 €',
+    fromNote: 'Einzeleintritt',
+    regular: '140 € 5er Karte',
     tag: null,
     href: 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course',
   },
@@ -33,9 +33,9 @@ const services = [
   {
     name: 'Wellpass',
     description:
-      'Wir sind Wellpass-Partner. Komm mit deinem Wellpass zu uns und trainiere mit individueller Zuzahlung.',
-    from: 'Zuzahlung',
-    fromNote: 'individuell',
+      'Die Teilnahme mit EGYM Wellpass ist möglich. Info & Buchung findest du unter „Kurs buchen".',
+    from: 'Wellpass',
+    fromNote: 'Partner-Studio',
     regular: 'Pilates & EMS buchbar',
     tag: 'Partner',
     href: 'https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments',
