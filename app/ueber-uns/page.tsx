@@ -42,6 +42,12 @@ const team = [
     photo: '/images/PetraPhoto.jpeg',
     bio: 'Sport begleitet mich seit meiner Kindheit und ist ein wichtiger Bestandteil meines Lebens. Erst nach der Geburt meines Sohnes entdeckte ich Pilates für mich – als ideale Kombination aus Kräftigung, Dehnung und bewusster Entspannung. Die positiven Erfahrungen motivierten mich dazu, selbst die Ausbildung zu beginnen und mein Wissen weiterzugeben.\n\nIch bin zertifizierte DOSB Übungsleiterin C im Bereich Fitness und Gesundheit sowie DOSB Übungsleiterin B für Haltungs- und Bewegungssysteme. Zusätzlich habe ich eine Pilates-Ausbildung und bilde mich hier regelmäßig fort.\n\nIch freue mich darauf, dir durch Bewegung mehr Kraft, Balance und Beweglichkeit zu vermitteln.',
   },
+  {
+    name: 'Stefanie Fischhold',
+    role: 'Pilates Instructor & Reformer-Trainerin',
+    photo: '/images/StefaniePhoto.jpeg',
+    bio: 'Meine Begeisterung für Bewegung begann mit dem Ballett und begleitet mich bis heute – inzwischen auch als leidenschaftliche Marathonläuferin. Die Verbindung aus Kraft, Beweglichkeit, Körpergefühl und Ausdauer fasziniert mich dabei besonders.\n\nAls ausgebildete Pilates- und Reformer-Trainerin sowie Barre-Instructor liebe ich es, diese unterschiedlichen Elemente in meinen Stunden miteinander zu verbinden. Mir ist wichtig, dass du dich wohlfühlst, deinen Körper bewusst wahrnimmst und gleichzeitig spürst, was in dir steckt.\n\nIch freue mich darauf, dich bei AURA Reformer mit viel Freude und Energie durch deine Stunde zu begleiten.',
+  },
 ]
 
 export default function UeberUns() {
@@ -128,7 +134,7 @@ export default function UeberUns() {
             </h2>
           </AnimateOnScroll>
 
-          <div className="grid md:grid-cols-2 gap-10 max-w-4xl">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl">
             {team.map((member, i) => (
               <AnimateOnScroll key={member.name} delay={i * 100}>
                 <div className="flex flex-col gap-5">
@@ -168,7 +174,7 @@ export default function UeberUns() {
               Buch deinen Probetermin und erlebe Aura Reformer zum ersten Mal — unverbindlich und entspannt.
             </p>
             <a
-              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/appointments"
+              href="https://meinfitomat.club/studio/Zml0dHk6MTMwMzAzNDA0MA%3D%3D/course"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center bg-accent text-white px-10 py-4 rounded-full text-sm tracking-wide hover:bg-accent-dark transition-colors duration-300"
