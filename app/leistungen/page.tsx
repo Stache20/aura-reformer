@@ -86,33 +86,6 @@ export default function Leistungen() {
             </p>
           </AnimateOnScroll>
 
-          {/* TEMPORARY — Herbst-Special für Neukunden, remove after 11.10.2026. See images/FallEventPhotos/REVERT-NOTES.md */}
-          <AnimateOnScroll className="mb-10">
-            <div className="rounded-2xl border border-accent/40 bg-accent/5 p-8 flex flex-col md:flex-row items-start md:items-center gap-6">
-              <div className="flex-1">
-                <p className="text-accent text-[11px] tracking-[0.25em] uppercase mb-2">Herbst-Special · nur für Neukunden</p>
-                <h3 className="font-display font-medium text-2xl text-ink mb-2">3× Reformer Pilates zum Einstieg</h3>
-                <p className="text-muted text-sm leading-relaxed">
-                  Buchbar bis zum <span className="text-ink font-medium">11.10.2026</span>. Danach gelten wieder die regulären Preise.
-                </p>
-              </div>
-              <div className="shrink-0 flex flex-col items-center gap-3">
-                <div className="bg-bg border border-accent/30 rounded-2xl px-7 py-5 text-center">
-                  <p className="font-display font-light text-4xl text-ink">72 €</p>
-                  <p className="text-[10px] text-muted mt-1">oder mit Wellpass nur 33 €</p>
-                </div>
-                <a
-                  href={OFFERS}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs bg-accent text-white px-5 py-2 rounded-full hover:bg-accent-dark transition-colors duration-300 whitespace-nowrap"
-                >
-                  Special buchen →
-                </a>
-              </div>
-            </div>
-          </AnimateOnScroll>
-
           {/* Regular prices */}
           <AnimateOnScroll className="mb-4">
             <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-muted mb-6">Reguläre Preise</p>
