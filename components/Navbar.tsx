@@ -5,6 +5,7 @@ import Image from 'next/image'
 import { useEffect, useState } from 'react'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
+import BlackFridayBar from '@/components/BlackFridayBar' // TEMPORARY — Black Friday, remove after 30.11.2026
 
 const navLinks = [
   { href: '/', label: 'Start' },
@@ -35,6 +36,7 @@ export default function Navbar() {
         solid ? 'bg-bg border-b border-border shadow-sm' : 'bg-transparent'
       )}
     >
+      <BlackFridayBar /> {/* TEMPORARY — Black Friday, remove after 30.11.2026 */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}

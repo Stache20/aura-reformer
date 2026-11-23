@@ -86,6 +86,48 @@ export default function Leistungen() {
             </p>
           </AnimateOnScroll>
 
+          {/* TEMPORARY — Black Friday Special 20.11.–30.11.2026, remove afterwards. See images/BlackFridayEvent/REVERT-NOTES.md */}
+          <AnimateOnScroll className="mb-10">
+            <div id="black-friday" className="scroll-mt-36 rounded-2xl border border-accent/40 bg-accent/5 p-8">
+              <p className="text-accent text-[11px] tracking-[0.25em] uppercase mb-2">Black Friday Special · 20.11. – 30.11.2026</p>
+              <h3 className="font-display font-medium text-2xl text-ink mb-2">Nur für kurze Zeit – sichere dir dein Angebot</h3>
+              <p className="text-muted text-sm leading-relaxed mb-6">
+                Buchbar bis zum <span className="text-ink font-medium">30.11.2026</span>. Danach gelten wieder die regulären Preise.
+              </p>
+              <div className="grid md:grid-cols-2 gap-5">
+                <div className="bg-bg rounded-2xl border border-accent/30 p-7 flex flex-col gap-3">
+                  <p className="text-sm font-medium text-ink">3er Karte Reformer Pilates</p>
+                  <p className="font-display font-light text-4xl text-ink">72 €</p>
+                  <p className="text-muted text-xs">nur für Neukunden · mit Wellpass nur 33 €</p>
+                  <a
+                    href={OFFERS}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 text-xs bg-accent text-white px-4 py-2 rounded-full text-center hover:bg-accent-dark transition-colors duration-300"
+                  >
+                    Special buchen →
+                  </a>
+                </div>
+                <div className="bg-bg rounded-2xl border border-accent/30 p-7 flex flex-col gap-3">
+                  <p className="text-sm font-medium text-ink">10er Karte Reformer Pilates</p>
+                  <p className="font-display font-light text-4xl text-ink">
+                    240 € <span className="text-lg text-muted line-through align-middle">270 €</span>
+                  </p>
+                  <p className="text-muted text-xs">30 € Vorteil · mit Wellpass nur 110 €</p>
+                  <a
+                    href={OFFERS}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="mt-1 text-xs bg-accent text-white px-4 py-2 rounded-full text-center hover:bg-accent-dark transition-colors duration-300"
+                  >
+                    Special buchen →
+                  </a>
+                </div>
+              </div>
+            </div>
+          </AnimateOnScroll>
+          {/* END TEMPORARY — Black Friday Special */}
+
           {/* Regular prices */}
           <AnimateOnScroll className="mb-4">
             <p className="text-[11px] font-semibold tracking-[0.2em] uppercase text-muted mb-6">Reguläre Preise</p>
